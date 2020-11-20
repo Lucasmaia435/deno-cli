@@ -33,3 +33,6 @@ In this file you should add all the permissions that you need.
 ```typescript
 console.log("Hello world!");
 ```
+
+## `run`
+Run the main file for your deno project based on the permissions at `config.json`
