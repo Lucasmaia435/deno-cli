@@ -1,5 +1,5 @@
 {
-  "name": "dm",
+  "name": "dm-cli",
   "description": "Command Line Interface (CLI) to create and manage your deno workspace.",
   "version": "1.0.0",
   "main": "index.js",
