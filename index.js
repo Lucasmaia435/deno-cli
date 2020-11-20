@@ -22,7 +22,8 @@ program
     "name":"",
     "main" : "index.ts",
     "permissions":["--allow-net"],
-    "author" : ""
+    "author" : "",
+    "license": "",
 }`
 
 );

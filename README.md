@@ -1,5 +1,14 @@
 # Deno-cli
 
+## Install
+With NPM:
+```bash
+npm install -g deno-cli
+```
+With Yarn:
+```bash
+yarn global add deno-cli
+```
 ## Commands
 ```bash
 ..>dm --help
@@ -24,13 +33,16 @@ success Saved config file.
 success Saved index file.
 ```
 
-### Config.json contains the fields "main" and "permissions":
+### Config.json contains the following fields:
 ```json
 {
-    "main":"index.ts",
+    "name":"",
+    "version":"1.0.0",
+    "main" : "index.ts",
     "permissions":[
         "--allow-net"
-    ]
+        ],
+    "author" : "",
 }
 ```
 In this file you should add all the permissions that you need.
