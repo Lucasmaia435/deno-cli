@@ -37,12 +37,12 @@ success Saved index file.
 ```json
 {
     "name":"",
+    "author" : "",
     "version":"1.0.0",
     "main" : "index.ts",
     "permissions":[
         "--allow-net"
-        ],
-    "author" : "",
+        ]
 }
 ```
 In this file you should add all the permissions that you need.

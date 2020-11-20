@@ -20,10 +20,10 @@ program
     fs.writeFileSync(configPath,
 `{
     "name":"",
-    "main" : "index.ts",
-    "permissions":["--allow-net"],
     "author" : "",
-    "license": "",
+    "version":"1.0.0",
+    "main" : "index.ts",
+    "permissions":["--allow-net"]
 }`
 
 );
