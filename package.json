@@ -1,0 +1,22 @@
+{
+  "name": "dm",
+  "description": "Command Line Interface (CLI) to create and manage your deno workspace.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "GNU",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "shelljs": "^0.8.4"
+  },
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/Lucasmaia435/dm.git"
+  },
+  "bin": {
+    "dm": "index.js"
+  },
+  "author": "Lucas Maia",
+  "keywords": ["Deno","deno","typescript","javascript","cli","cli-node"],
+  "homepage": "https://github.com/Lucasmaia435/dm"
+}
