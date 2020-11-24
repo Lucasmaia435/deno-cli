@@ -50,11 +50,9 @@ program
     exe += main;
     console.log(chalk.blueBright(`Executing: ${exe}`));
 
-    exec(exe, (err,out,outerr) => {
-        if(out) console.log(out);
-        if(err != null) console.log(err);
-        if(outerr != null) console.log(outerr);
-    });
+   const run = exec(exe);
+  
+   run.stdout.on('data', (data) => console.log(data));
 
 
 })

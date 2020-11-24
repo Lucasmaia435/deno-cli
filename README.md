@@ -1,5 +1,9 @@
 # Deno-cli
 
+This project has the porpose to make easier the way to start and manage your code's permissions in an deno project. This CLI needs deno installed in your machine. 
+
+You see how you can install deno [here](https://deno.land/#installation).
+
 ## Install
 With NPM:
 ```bash
