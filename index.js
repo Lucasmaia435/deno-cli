@@ -54,7 +54,10 @@ program
   
    run.stdout.on('data', (data) => console.log(data));
 
+   run.stderr.on('error', (data) => {
+    console.log(chalk.red('[ERROR]:'), data);
+   });
 
-})
+});
 
 program.parse(process.argv);

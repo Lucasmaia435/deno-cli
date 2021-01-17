@@ -1,7 +1,7 @@
 {
   "name": "deno-cli",
   "description": "Command Line Interface (CLI) to create and manage your deno workspace.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "index.js",
   "license": "GNU",
   "dependencies": {
